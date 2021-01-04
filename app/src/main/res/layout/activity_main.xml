@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Amount in Rupees"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/num1"
+        android:layout_marginTop="64dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="US Dollar"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="European Euro"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Swiss Franc"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Argentina Peso"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Brazilian Real"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Japanese Yen"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Chinese Yuan"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_below="@id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:onClick="btClick"
+        android:text="Enter" />
+
+</RelativeLayout>
